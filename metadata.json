@@ -1,0 +1,6 @@
+{
+  "name": "PathPilot AI",
+  "description": "Intelligent career discovery, academic planning, university matching and application guidance platform for high school students.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

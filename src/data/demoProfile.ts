@@ -1,0 +1,52 @@
+import { StudentProfile } from '../types';
+
+export const DEMO_STUDENT_PROFILE: StudentProfile = {
+  name: 'Alex',
+  country: 'ZA',
+  region: 'Gauteng',
+  grade: 'Grade 11',
+  curriculum: 'IEB',
+  initialCareerIdeas: ['Biomedical Engineering', 'Data Science', 'Medical Physics'],
+  hasIdeaLevel: 'few',
+  subjects: [
+    { id: 'sub-1', name: 'English First Additional Language', mark: 74, isLiked: true },
+    { id: 'sub-2', name: 'Mathematics', mark: 66, isLiked: true },
+    { id: 'sub-3', name: 'Physical Sciences', mark: 72, isLiked: true },
+    { id: 'sub-4', name: 'Life Sciences', mark: 78, isLiked: true },
+    { id: 'sub-5', name: 'Computer Applications Technology', mark: 84, isLiked: true },
+    { id: 'sub-6', name: 'Life Orientation', mark: 82 },
+  ],
+  interests: ['Technology', 'Medicine & Health', 'Science', 'Artificial Intelligence', 'Innovation'],
+  riasecScores: {
+    R: 14,
+    I: 22,
+    A: 6,
+    S: 12,
+    E: 8,
+    C: 10,
+  },
+  workPreferences: {
+    workWith: 'technology',
+    environment: ['Hospital/clinic', 'Laboratory', 'Remote'],
+    maxStudyDurationYears: 5,
+    priorities: {
+      earningPotential: 4,
+      jobStability: 4,
+      helpingPeople: 5,
+      creativity: 3,
+      flexibility: 4,
+      remoteWork: 4,
+      travel: 3,
+      workLifeBalance: 4,
+      leadership: 3,
+      continuousLearning: 5,
+    },
+  },
+  savedCareerIds: ['medical-physicist', 'biomedical-engineer', 'data-scientist'],
+  savedUniversityIds: ['uct-beng-biomedical', 'wits-beng-biomedical', 'uct-bsc-physics'],
+  careerStyle: {
+    title: 'The Curious Health Innovator',
+    description: 'You are excited by using computing and applied sciences to make a tangible, life-saving impact on human health.',
+    traits: ['Investigative Thinker', 'Tech-Enabled', 'Compassionate', 'Continuous Learner'],
+  },
+};
